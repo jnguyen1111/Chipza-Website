@@ -1,0 +1,13 @@
+#mainHeader {
+    color: white;
+    font-family: "Klavika Medium Condensed",Arial,sans-serif;
+}
+
+*{
+    background-color: black;
+}
+
+.subHeader{
+    color: red;
+    font-family: "Noto Sans",sans-serif;
+}
