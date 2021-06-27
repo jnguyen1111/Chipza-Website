@@ -1,0 +1,60 @@
+<!--***Note that this is used for educational purposes for learning and understanding
+    This company is not real and used as a project idea only***-->
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="utf-8">
+        <title>>Chipza  Desktop Series Proccessors</title>
+        <meta name = "Chipza QuickSlick" content = "About the processors">
+        <link rel ="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <div class = "mainHeader">
+            <img src="ChipzaLogo.png" alt ="Chipza Logo">
+            <h2 id="mainHeader">Chipza Desktop Processors</h2>
+        </div>
+        <div class = "navigation">
+            <ul>
+                <li>
+                    <!--Will add html page for all navigation links soon-->
+                    <a href="https://www.youtube.com/">About Chipza</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/">Careers </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/">Our Suppliers</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <h2 class="subHeader">Powered to win</h2>
+        <p>up to 50% increase in performance</p>
+
+        <h2 class="subHeader">3nm (gen2) Architecture</h2>
+        <p>The worlds fastest processor ever seen, optimized for massive performance</p>
+
+        <h2 class="subHeader">Optimized for Enthusiasts</h2>
+        <p>Compatible with many high-performance cooling systems</p>
+
+        <h2 class="subHeader">Chipza quickStore Technology</h2>
+        <p>Accelerate your storage with Chipza's latest and greatest technology</p>
+
+        <h2 class="subHeader">PCIe 4.0 Support</h2>
+        <p>Blazing fast storage, More bandwidth, Easy to install</p>
+
+        <h2 class="subHeader">Plug and play</h2>
+        <p>Seamless connection, Backwards compatibility, Ease of use</p>
+
+        <h2 class="subHeader">Build your ultimate gaming pc</h2>
+        <p>Pair your Chipza processors with Chipza's Bull Whip grpahics for the ultimate experience</p>
+
+        <h2 class="subHeader">Chipza's QuickSlick Series Desktop Processors</h2>
+        <p>Learn More</p>
+        
+        <h2 class="subHeader">***Previous*** Chipza's SwiftGale Series Desktop Processors</h2>
+        <p>Learn More</p>
+
+    </body>
+</html>
