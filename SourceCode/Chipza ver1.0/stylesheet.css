@@ -1,19 +1,36 @@
 html, body{
     padding: 0;
     margin: 0;
+    background-color: #273033;
 
 }
 
-.mainHeader h2{
-    text-align: left;
+p{
+    font-size: 25px;
     font-family: "Klavika Medium Condensed",Arial,sans-serif;
+}
+
+h2{
     font-size: 40px;
+    font-family: "Klavika Medium Condensed",Arial,sans-serif;
+}
+
+.subHeader{
     color: white;
-    background-color: #273033;
-    background-size: 100px;
+    font-family: "Noto Sans",sans-serif;
+}
+
+.mainHeader h2{
+    margin:  0px;
+    padding-left: 15px;
+    text-align: left;
     line-height: 2.5;
-    margin-top: 0;
+    color: white;
+    font-family: "Klavika Medium Condensed",Arial,sans-serif;
     font-style: italic;
+    font-size: 40px;
+    background-color: #273033;
+    border-bottom: 2px solid white;
 }
 
 .mainHeader img{
@@ -24,13 +41,11 @@ html, body{
 
 .navigation ul{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin-top: 10;
     overflow: hidden;
-    background-color: darkred;
-    line-height: 2.5;
-    background-size: 100px;
+    padding: 0;
+    margin:  0px;
+    line-height: 1.5;
+    background-color:#595353; 
 }
 
 .navigation li { 
@@ -42,14 +57,42 @@ html, body{
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 8px 264px;
     text-decoration: none;
     font-family: "Klavika Medium Condensed",Arial,sans-serif;
     font-size: 20px;
     font-style: italic;
 }
 
-.subHeader{
-    color: red;
-    font-family: "Noto Sans",sans-serif;
+.navigation a:hover{
+    background-color: grey;
 }
+
+.section1{
+    background-color: #0d0c0c;
+
+}
+
+.section1 h2{
+    margin:  0px;
+    color: white;
+    /*Top right bottom left*/
+    padding: 30px 200px 40px 30px;
+}
+
+.section1 p{
+    margin:  0px;
+    color: white;
+    padding: 2px 200px 290px 60px;
+}
+
+.section1 img{
+    float: right;
+    padding-top: 30px;
+    padding-right: 50px;
+}
+
+
+
+
+
