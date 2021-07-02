@@ -8,6 +8,7 @@ html, body{
 p{
     font-size: 25px;
     font-family: "Klavika Medium Condensed",Arial,sans-serif;
+    color: white;
 }
 
 h2{
@@ -57,7 +58,7 @@ h2{
     display: block;
     color: white;
     text-align: center;
-    padding: 8px 264px;
+    padding: 6px 262px;
     text-decoration: none;
     font-family: "Klavika Medium Condensed",Arial,sans-serif;
     font-size: 20px;
@@ -69,7 +70,7 @@ h2{
 }
 
 .section1{
-    background-color: #0d0c0c;
+    background-color: black;
 
 }
 
@@ -89,10 +90,74 @@ h2{
 .section1 img{
     float: right;
     padding-top: 30px;
-    padding-right: 50px;
+    padding-right: 125px;
 }
 
+.section2 {
+    margin:  0px;
+    color: white;
+    /*Top right bottom left*/
+    padding: 30px 100px 600px 1200px;
+    line-height: 1.5;
+    background-image: url(Cpu.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+.section3 {
+    margin: 0px;
+    text-align: center;
+    line-height: 1;
+    /*Top right bottom left*/
+    padding: 19px 0px 25px 0px;
+    background-color: black;
+    position: relative;
+
+    
+}
+
+.section4{
+    margin: 0;
+    text-align: right;
+    padding: 0px 200px 25px 0px;
+    background-color:#273033;
 
 
+}
+
+.section4 img {
+    margin: 0;
+    float: left;
+
+}
+
+.section5 {
+    margin: 0;
+    margin-top: 425px;
+    background-image: url(nvme.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 75px 200px 470px 0px;
+    position: relative;
+    text-align: right;
 
 
+}
+
+.section6 {
+    margin:0;
+    margin-top: 0px;
+    background-color:black;
+    background-size: 100%;
+    line-height: 1.5;
+    position: relative;
+     /*Top right bottom left*/
+     padding: 10px 0px 100px 0px;
+}
+
+.processortype{
+    text-align: center;
+    color: white;
+}
