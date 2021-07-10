@@ -78,20 +78,61 @@ h2{
     margin:  0px;
     color: white;
     /*Top right bottom left*/
-    padding: 30px 200px 40px 30px;
 }
 
-.section1 p{
-    margin:  0px;
-    color: white;
-    padding: 2px 200px 290px 60px;
-}
+
 
 .section1 img{
     float: right;
     padding-top: 30px;
     padding-right: 125px;
 }
+
+
+
+
+.testing123{
+    padding: 3px 300px 225px 60px;
+    line-height: 2.5;
+
+}
+
+.section1 p{
+    margin:  0px;
+    color: white;
+    padding-left: 60px;
+}
+
+.link1 a{
+    margin:  0px;
+    padding: 5px;
+    position: relative;
+    display: inline;
+    color: white;
+    text-decoration: none;
+    font-family: "Klavika Medium Condensed",Arial,sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    border-style: solid;
+}
+
+
+.link2 a{
+    margin:  250px;
+    padding: 5px;
+    position: relative;
+    display: inline;
+    color: white;
+    text-decoration: none;
+    font-family: "Klavika Medium Condensed",Arial,sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    border-style: solid;
+
+}
+
+
+
 
 .section2 {
     margin:  0px;
@@ -129,6 +170,7 @@ h2{
 
 .section4 img {
     margin: 0;
+    margin-top: 20px;
     float: left;
 
 }
@@ -139,10 +181,9 @@ h2{
     background-image: url(nvme.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    padding: 75px 200px 470px 0px;
+    padding: 75px 200px 455px 0px;
     position: relative;
     text-align: right;
-
 
 }
 
@@ -151,13 +192,43 @@ h2{
     margin-top: 0px;
     background-color:black;
     background-size: 100%;
-    line-height: 1.5;
+    line-height: 1;
     position: relative;
      /*Top right bottom left*/
-     padding: 10px 0px 100px 0px;
+     padding: 1px 0px 50px 0px;
 }
 
 .processortype{
     text-align: center;
+
     color: white;
 }
+
+h3{
+    color: white;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: black;
+  padding: 5px;
+}
+
+
+
+.grid{
+    background-color: black;;
+    padding: 5px;
+    font-size: 10px;
+   
+}
+
+
+.microHeader{
+    font-size: 20px;
+    font-family: "Klavika Medium Condensed",Arial,sans-serif;
+}
+
+
