@@ -2,23 +2,6 @@ html, body{
     padding: 0;
     margin: 0;
     background-color: #273033;
-
-}
-
-p{
-    font-size: 25px;
-    font-family: "Klavika Medium Condensed",Arial,sans-serif;
-    color: white;
-}
-
-h2{
-    font-size: 40px;
-    font-family: "Klavika Medium Condensed",Arial,sans-serif;
-}
-
-.subHeader{
-    color: white;
-    font-family: "Noto Sans",sans-serif;
 }
 
 .mainHeader h2{
@@ -26,10 +9,7 @@ h2{
     padding-left: 15px;
     text-align: left;
     line-height: 2.5;
-    color: white;
-    font-family: "Klavika Medium Condensed",Arial,sans-serif;
     font-style: italic;
-    font-size: 40px;
     background-color: #273033;
     border-bottom: 2px solid white;
 }
@@ -38,6 +18,68 @@ h2{
     float:right;
     width: 100;
     height: 100px;
+}
+
+.subHeader{
+    color: white;
+    font-family: "Noto Sans",sans-serif;
+}
+
+.microHeader{
+    color: white;
+    font-size: 35px;
+    font-family: "Klavika Medium Condensed",Arial,sans-serif;
+}
+
+h2{
+    color: white;
+    font-size: 40px;
+    font-family: "Klavika Medium Condensed",Arial,sans-serif;
+}
+
+p{
+    font-size: 25px;
+    font-family: "Klavika Medium Condensed",Arial,sans-serif;
+    line-height: 1.3;
+    color: white;
+}
+
+.linkFormat a{
+    margin:  0px;
+    padding: 5px;
+    position: relative;
+    display: inline;
+    color: white;
+    text-decoration: none;
+    font-family: "Klavika Medium Condensed",Arial,sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    border-style: solid ;
+    border-color: white;
+}
+
+.linkFormat a:hover{
+    border-color: #292929;
+    background-color: #292929;
+}
+
+.linkFormat2 a{
+    margin:  250px;
+    padding: 5px;
+    position: relative;
+    display: inline;
+    color: white;
+    text-decoration: none;
+    font-family: "Klavika Medium Condensed",Arial,sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    border-style: solid;
+    border-color: white;
+}
+
+.linkFormat2 a:hover{
+    border-color: #292929;
+    background-color: #292929;
 }
 
 .navigation ul{
@@ -51,7 +93,6 @@ h2{
 
 .navigation li { 
     float: left;
-
 }
 
 .navigation a{
@@ -71,16 +112,11 @@ h2{
 
 .section1{
     background-color: black;
-
 }
 
 .section1 h2{
     margin:  0px;
-    color: white;
-    /*Top right bottom left*/
 }
-
-
 
 .section1 img{
     float: right;
@@ -88,13 +124,9 @@ h2{
     padding-right: 125px;
 }
 
-
-
-
-.testing123{
+.section1Format{
     padding: 3px 300px 225px 60px;
     line-height: 2.5;
-
 }
 
 .section1 p{
@@ -103,60 +135,24 @@ h2{
     padding-left: 60px;
 }
 
-.link1 a{
-    margin:  0px;
-    padding: 5px;
-    position: relative;
-    display: inline;
-    color: white;
-    text-decoration: none;
-    font-family: "Klavika Medium Condensed",Arial,sans-serif;
-    font-size: 25px;
-    font-style: italic;
-    border-style: solid;
-}
-
-
-.link2 a{
-    margin:  250px;
-    padding: 5px;
-    position: relative;
-    display: inline;
-    color: white;
-    text-decoration: none;
-    font-family: "Klavika Medium Condensed",Arial,sans-serif;
-    font-size: 25px;
-    font-style: italic;
-    border-style: solid;
-
-}
-
-
-
-
 .section2 {
     margin:  0px;
     color: white;
-    /*Top right bottom left*/
     padding: 30px 100px 600px 1200px;
     line-height: 1.5;
     background-image: url(Cpu.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     position: relative;
-    
 }
 
 .section3 {
     margin: 0px;
     text-align: center;
     line-height: 1;
-    /*Top right bottom left*/
     padding: 19px 0px 25px 0px;
     background-color: black;
     position: relative;
-
-    
 }
 
 .section4{
@@ -164,15 +160,12 @@ h2{
     text-align: right;
     padding: 0px 200px 25px 0px;
     background-color:#273033;
-
-
 }
 
 .section4 img {
     margin: 0;
     margin-top: 20px;
     float: left;
-
 }
 
 .section5 {
@@ -184,7 +177,6 @@ h2{
     padding: 75px 200px 455px 0px;
     position: relative;
     text-align: right;
-
 }
 
 .section6 {
@@ -194,20 +186,8 @@ h2{
     background-size: 100%;
     line-height: 1;
     position: relative;
-     /*Top right bottom left*/
      padding: 1px 0px 50px 0px;
 }
-
-.processortype{
-    text-align: center;
-
-    color: white;
-}
-
-h3{
-    color: white;
-}
-
 
 .grid-container {
   display: grid;
@@ -216,19 +196,12 @@ h3{
   padding: 5px;
 }
 
-
-
 .grid{
     background-color: black;;
     padding: 5px;
     font-size: 10px;
-   
 }
 
 
-.microHeader{
-    font-size: 20px;
-    font-family: "Klavika Medium Condensed",Arial,sans-serif;
-}
 
 
