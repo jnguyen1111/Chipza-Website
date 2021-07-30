@@ -1,0 +1,90 @@
+<!--***Note that this is used for educational purposes for learning and understanding
+    This company is not real and used as a project idea only with no intention to sell anything***-->
+
+    <!DOCTYPE html>
+    <html lang = "en">
+        <head>
+            <meta charset="utf-8">
+            <title>Transaction</title>
+            <meta name = "Chipza" content = "transaction page">
+            <link rel ="stylesheet" href="transaction stylesheet.css">
+        </head>
+            <body>
+                <form>
+                    <div class = "mainHeader">
+                    <img src="ChipzaLogo.png" alt ="Chipza Logo">
+                    <h2 id="mainHeader">Chipza Desktop Processors</h2>
+                    </div>
+                    <div class = "subHeader">
+                        <h2 id = "shipping">Shipping Information</h2>
+                    </div>
+
+                    <h2>first name:</h2>
+                    <label for="first name"></label>
+                    <input type="text" id="first name" name="first name">
+
+                    <h2>last name:</h2>
+                    <label for="last name"></label>
+                    <input type="text" id="last name" name="last name">    
+
+                    <h2>Shipping Address:</h2>
+                    <label for="address"></label>
+                    <input type="text" id="address" name="address">
+
+                    <h2>Zip Code:</h2>
+                    <label for="zip code"></label>
+                    <input type="text" id="zip code" name="zip code">
+
+                    <h2>City:</h2>
+                    <label for="city"></label>
+                    <input type="text" id="city" name="city">
+
+                    <h2>State:</h2>
+                    <label for="state"></label>
+                    <input type="text" id="state" name="state">
+
+                    <h2>Email:</h2>
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email">
+
+                    <h2>Phone Number:</h2>
+                    <label for="phone"></label>
+                    <input type="text" id="phone" name="phone">
+                    
+                    <h2>Shipping Speed</h2>
+                    <h6>Please select your shipping speed</h6>
+
+                    <input type="radio" id="shipping" name="shipping types" value="standardshipping">standard shipping<br>
+                    <input type="radio" id="shipping" name="shipping types" value="expressshipping">express shipping<br>
+
+                    <h1>Product</h1>
+                    <label for="item">Choose your cpu:</label>
+                    <select id="item" name="item">
+                        <option value="21v">QuickSlick 21v</option>
+                        <option value="22v">QuickSlick 22v</option>
+                        <option value="23v">QuickSlick 23v</option>
+                        <option value="11v">SwiftGale 11v</option>
+                        <option value="12v">SwiftGale 12v</option>
+                        <option value="13v">SwiftGale 13v</option>
+                    </select>
+
+                    <h2> Quantity</h2>
+                    <p>Limit per customer: 4</p>
+                    <label for="quantity"></label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="4">
+
+                    <!--whole section different-->
+                    <h1>Checkout</h1>
+                    <h2>Order summary</h2>
+                    <h2>Product Info</h2>
+                    <h2>Item #:</h2>
+                    <h2>Total Cost:</h2>
+                    <h6>subtotal:</h6>
+                    <h6>tax:</h6>
+                    <h6>shipping:</h6>
+                    <h6>total cost:</h6>
+
+                    <input type="submit">
+                </form>
+            </body>
+    </html>
