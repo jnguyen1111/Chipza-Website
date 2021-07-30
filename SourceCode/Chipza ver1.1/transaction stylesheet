@@ -1,0 +1,60 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: #273033;
+}
+
+h1, h2, h6{
+    color: white;
+    margin: 0px;
+}
+
+p{
+    font-size: 25px;
+    font-family: "Klavika Medium Condensed",Arial,sans-serif;
+    line-height: 1.3;
+    color: white;
+    margin: 0px;
+}
+
+.mainHeader h2{
+    margin:  0px;
+    font-size: 40px;
+    padding-left: 15px;
+    text-align: left;
+    line-height: 2.5;
+    font-style: italic;
+    background-color: #273033;
+    border-bottom: 2px solid white;
+    font-family: "Klavika Medium Condensed",Arial,sans-serif;
+}
+
+.mainHeader img{
+    float:right;
+    width: 100;
+    height: 100px;
+}
+
+
+
+.subHeader{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#shipping{
+    font-size: 30px;
+    padding: 10px 0px 0px 350px;
+}
+
+.microHeader{
+    color: white;
+    font-size: 35px;
+    font-family: "Klavika Medium Condensed",Arial,sans-serif;
+}
+
+
+
+
+
+
