@@ -35,16 +35,9 @@ p{
     height: 100px;
 }
 
-
-
 .subHeader{
     color: white;
     font-family: Arial, Helvetica, sans-serif
-}
-
-#shipping{
-    font-size: 30px;
-    padding: 10px 0px 0px 350px;
 }
 
 .microHeader{
@@ -53,8 +46,76 @@ p{
     font-family: "Klavika Medium Condensed",Arial,sans-serif;
 }
 
+#firstName{
+    padding: 10px 0px 0px 350px;
+    display: inline-block;
+    
+}
 
+#lastName{
+    /*top right bottom left*/
+    padding: 10px 0px 0px 25px;
+    display: inline-block;
+    
+}
 
+#shippingAddress{
+    /*top right bottom left*/
+    padding: 10px 0px 0px 350px;
+    display: inline-block;
+}
+
+#zipCode{
+    /*top right bottom left*/
+    padding: 10px 0px 0px 15px;
+    display: inline-block;
+    
+}
+
+#formCity{
+    padding: 10px 0px 0px 350px;
+    display: inline-block;
+    
+}
+
+#formState{
+    padding: 10px 0px 0px 25px;
+    display: inline-block;
+}
+
+#formEmail{
+    padding: 10px 0px 0px 350px;
+    display: inline-block;
+}
+
+#phoneNumber{
+    padding: 10px 0px 0px 25px;
+    display: inline-block;
+}
+
+#shipSpeed{
+    padding: 10px 0px 0px 350px;
+    display: inline-block;
+    color: white;
+}
+
+#product{
+    padding: 10px 0px 0px 350px;
+    color: white;
+
+}
+
+#formQuantity{
+
+    padding: 10px 0px 0px 350px;
+    display: inline-block;
+} 
+
+#shipping{
+    font-size: 30px;
+    padding: 10px 0px 0px 350px;
+    margin: 0px;
+}
 
 
 
