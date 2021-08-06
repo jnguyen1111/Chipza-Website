@@ -102,12 +102,13 @@ p{
 #product{
     padding: 10px 0px 0px 350px;
     color: white;
+    display: inline-block;
 
 }
 
 #formQuantity{
 
-    padding: 10px 0px 0px 350px;
+    padding: 10px 0px 0px 25px;
     display: inline-block;
 } 
 
@@ -117,5 +118,14 @@ p{
     margin: 0px;
 }
 
+.userInfo{
+    margin: 0px;
+    margin-right: 100px;
+    float: left;
+    line-height: 1.5;
+}
 
-
+.paymentInfo{
+    padding: 10px 0px 0px 0px;
+    line-height: 2.5;
+}
