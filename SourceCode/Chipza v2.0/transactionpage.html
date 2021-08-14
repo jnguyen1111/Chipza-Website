@@ -1,0 +1,117 @@
+<!--***Note that this is used for educational purposes for learning and understanding
+    This company is not real and used as a project idea only with no intention to sell anything***-->
+
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="utf-8">
+        <title>Transaction</title>
+        <meta name = "Chipza" content = "transaction page" content="width=device-width, initial-scale=1">
+        <link rel ="stylesheet" href="transaction stylesheet.css">
+    </head>
+    <body>
+        <form>
+            <div class = "mainHeader">
+            <img src="ChipzaLogo.png" alt ="Chipza Logo">
+            <h2 id="mainHeader">Chipza Desktop Processors</h2>
+            </div>
+            <div class="userInfo">
+                <div class = "subHeader">
+                    <h2 id = "shipping">Shipping Information</h2>
+                </div>
+                <div id = firstName>
+                    <h2>first name:</h2>
+                    <label for="first name"></label>
+                    <input type="text" id="first-name" name="first-name">
+                </div>
+                <div id = lastName>
+                    <h2>last name:</h2>
+                    <label for="last name"></label>
+                    <input type="text" id="last-name" name="last-name">    
+                </div>
+                <br>
+                <div id = shippingAddress>
+                    <h2>Shipping Address:</h2>
+                    <label for="address"></label>
+                    <input type="text" id="shipping-address" name="shipping-address" size="50">
+                </div>
+                <br>
+                <div id = zipCode>
+                    <h2>Zip Code:</h2>
+                    <label for="zip code"></label>
+                    <input type="text" id="zip-code" name="zip-code" value="example">
+                </div>
+                <br>
+                <div id="formCity">
+                    <h2>City:</h2>
+                    <label for="city"></label>
+                    <input type="text" id="city" name="city">    
+                </div>
+                <div id="formState">
+                    <h2>State:</h2>
+                    <label for="state"></label>
+                    <input type="text" id="state" name="state">    
+                </div>
+                <br>
+                <div id="formEmail">
+                    <h2>Email:</h2>
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div id="phoneNumber">                  
+                    <h2>Phone Number:</h2>
+                    <label for="phone"></label>
+                    <input type="text" id="phone-number" name="phone-number">
+                </div>
+                <br>
+                <div id="shipSpeed">
+                    <h2>Shipping Speed</h2>
+                    <!-- <h6>Please select your shipping speed</h6> -->
+
+                    <label for="shipping">Please select your shipping speed</label>
+                    <br>
+                    <input type="radio" id="shipping" name="shippingtypes" value="standardshipping"> standard shipping 
+                    <input type="radio" id="shipping" name="shippingtypes" value="expressshipping"> express shipping
+                    <br>
+                </div>
+                <br>
+                <div id="product">
+                    <h1>Product</h1>
+                    <label for="item">Choose your cpu: </label>
+                    <br>
+                    <select id="item" name="item">
+                        <option value="QuickSlick 21v">QuickSlick 21v</option>
+                        <option value="QuickSlick 22v">QuickSlick 22v</option>
+                        <option value="QuickSlick 23v">QuickSlick 23v</option>
+                        <option value="SwiftGale 11v">SwiftGale 11v</option>
+                        <option value="SwiftGale 12v">SwiftGale 12v</option>
+                        <option value="SwiftGale 13v">SwiftGale 13v</option>
+                    </select>    
+                </div>
+                <div id="formQuantity">
+                    <h2> Quantity</h2>
+                    <p>Limit per customer: 4</p>
+                    <label for="quantity"></label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="4">    
+                </div>
+                <br>
+                <div class="submit">
+                    <button onclick="testFunction()" type = "button">Place your order</button>
+                </div>
+            </div>
+            <div class="paymentInfo">
+            <h1 >Checkout</h1>
+            <h2>Order summary</h2>
+            <h2>Product Info</h2>
+            <h6>Item #:</h6>
+            <h6>Cost: $0.00</h6>
+            <h6>subtotal: $0.00</h6>
+            <h6>shipping: $0.00</h6>
+            <h6>tax: $0.00</h6>
+            <h6>total cost: $0.00</h6>
+            </div>
+        </form>
+        <script type="text/javascript" src="transactioninfo.js"></script>
+    </body>
+</html>
+
