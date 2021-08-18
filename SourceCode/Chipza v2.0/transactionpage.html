@@ -1,180 +1,175 @@
 <!--***Note that this is used for educational purposes for learning and understanding
     This company is not real and used as a project idea only with no intention to sell anything***-->
-
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <title>Transaction</title>
-    <meta name="Chipza" content="transaction page" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="transaction stylesheet.css">
-</head>
-
-<body>
-    <script type="text/javascript" src="transactioninfo.js"></script>
-    <form name = "registration" onsubmit= "testFunction()">
-        <div class="mainHeader">
-            <img src="ChipzaLogo.png" alt="Chipza Logo">
-            <h2 id="mainHeader">Chipza Desktop Processors</h2>
-        </div>
-        <div class="userInfo">
-            <div class="subHeader">
-                <h2 id="shipping">Shipping Information</h2>
+    <head>
+        <meta charset="UTF-8">
+        <title>Transaction</title>
+        <meta name="Chipza" content="transaction page" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="transaction stylesheet.css">
+    </head>
+    <body>
+        <form name = "registration">
+            <div class="mainHeader">
+                <img src="ChipzaLogo.png" alt="Chipza Logo">
+                <h2 id="mainHeader">Chipza Desktop Processors</h2>
             </div>
-            <div id=firstName>
-                <h2>first name:</h2>
-                <label for="first name"></label>
-                <input type="text" id="first-name" name="first-name" required>
-            </div>
-            <div id=lastName>
-                <h2>last name:</h2>
-                <label for="last name"></label>
-                <input type="text" id="last-name" name="last-name" required>
-            </div>
-            <br>
-            <div id=shippingAddress>
-                <h2>Shipping Address:</h2>
-                <label for="address"></label>
-                <input type="text" id="shipping-address" name="shipping-address" size="50" required>
-            </div>
-            <br>
-            <div id=zipCode>
-                <h2>Zip Code:</h2>
-                <label for="zip code"></label>
-                <input id="zip" name="zip" type="text" pattern="^[0-9]{5}$" required maxlength="5">
-            </div>
-            <br>
-            <div id="formCity">
-                <h2>City:</h2>
-                <label for="city"></label>
-                <input type="text" id="city" name="city" required>
-            </div>
-            <div id="formState">
-                <h2>State:</h2>
-                <label for="state"></label>
-                <select id="state" name="state" required>
-                    <option value=""></option>
-                    <option value="AL">Alabama</option>
-                    <option value="AK">Alaska</option>
-                    <option value="AZ">Arizona</option>
-                    <option value="AR">Arkansas</option>
-                    <option value="CA">California</option>
-                    <option value="CO">Colorado</option>
-                    <option value="CT">Connecticut</option>
-                    <option value="DE">Delaware</option>
-                    <option value="DC">District Of Columbia</option>
-                    <option value="FL">Florida</option>
-                    <option value="GA">Georgia</option>
-                    <option value="HI">Hawaii</option>
-                    <option value="ID">Idaho</option>
-                    <option value="IL">Illinois</option>
-                    <option value="IN">Indiana</option>
-                    <option value="IA">Iowa</option>
-                    <option value="KS">Kansas</option>
-                    <option value="KY">Kentucky</option>
-                    <option value="LA">Louisiana</option>
-                    <option value="ME">Maine</option>
-                    <option value="MD">Maryland</option>
-                    <option value="MA">Massachusetts</option>
-                    <option value="MI">Michigan</option>
-                    <option value="MN">Minnesota</option>
-                    <option value="MS">Mississippi</option>
-                    <option value="MO">Missouri</option>
-                    <option value="MT">Montana</option>
-                    <option value="NE">Nebraska</option>
-                    <option value="NV">Nevada</option>
-                    <option value="NH">New Hampshire</option>
-                    <option value="NJ">New Jersey</option>
-                    <option value="NM">New Mexico</option>
-                    <option value="NY">New York</option>
-                    <option value="NC">North Carolina</option>
-                    <option value="ND">North Dakota</option>
-                    <option value="OH">Ohio</option>
-                    <option value="OK">Oklahoma</option>
-                    <option value="OR">Oregon</option>
-                    <option value="PA">Pennsylvania</option>
-                    <option value="RI">Rhode Island</option>
-                    <option value="SC">South Carolina</option>
-                    <option value="SD">South Dakota</option>
-                    <option value="TN">Tennessee</option>
-                    <option value="TX">Texas</option>
-                    <option value="UT">Utah</option>
-                    <option value="VT">Vermont</option>
-                    <option value="VA">Virginia</option>
-                    <option value="WA">Washington</option>
-                    <option value="WV">West Virginia</option>
-                    <option value="WI">Wisconsin</option>
-                    <option value="WY">Wyoming</option>
-                </select>
-            </div>
-            <br>
-            <div id="formEmail">
-                <h2>Email:</h2>
-                <label for="email"></label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div id="phoneNumber">
-                <h2>Phone Number:</h2>
-                <label for="phone"></label>
-                <input id="phone" name="phone" type="text" pattern="^[0-9]{10}$" required>
-            </div>
-            <br>
-            <div id="shipSpeed">
-                <h2>Shipping Speed</h2>
-                <label for="shipping">Please select your shipping speed</label>
+            <div class="userInfo">
+                <div class="subHeader">
+                    <h2 id="shipping">Shipping Information</h2>
+                </div>
+                <div id=firstName>
+                    <h2>first name:</h2>
+                    <label for="first name"></label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div id=lastName>
+                    <h2>last name:</h2>
+                    <label for="last name"></label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
                 <br>
-                <input type="radio" id="shipping" name="shippingtypes" value="standardshipping" required> standard
-                shipping
-                <input type="radio" id="shipping" name="shippingtypes" value="expressshipping" required> express
-                shipping
+                <div id=shippingAddress>
+                    <h2>Shipping Address:</h2>
+                    <label for="address"></label>
+                    <input type="text" id="shipping-address" name="shipping-address" size="50" required>
+                </div>
                 <br>
-            </div>
-            <br>
-            <div id="product">
-                <h1>Product</h1>
-                <label for="item">Choose your cpu: </label>
+                <div id=zipCode>
+                    <h2>Zip Code:</h2>
+                    <label for="zip-code"></label>
+                    <input id="zip-code" name="zip-code" type="text" pattern="^[0-9]{5}$" required maxlength="5">
+                </div>
                 <br>
-                <select id="item" name="item" required>
-                    <option value=""></option>
-                    <option value="QuickSlick 21v">QuickSlick 21v</option>
-                    <option value="QuickSlick 22v">QuickSlick 22v</option>
-                    <option value="QuickSlick 23v">QuickSlick 23v</option>
-                    <option value="SwiftGale 11v">SwiftGale 11v</option>
-                    <option value="SwiftGale 12v">SwiftGale 12v</option>
-                    <option value="SwiftGale 13v">SwiftGale 13v</option>
-                </select>
+                <div id="formCity">
+                    <h2>City:</h2>
+                    <label for="city"></label>
+                    <input type="text" id="city" name="city" required>
+                </div>
+                <div id="formState">
+                    <h2>State:</h2>
+                    <label for="state"></label>
+                    <select id="state" name="state" required onchange="return updateStateTax()">
+                        <option value=""></option>
+                        <option data-tax = 0.04 id = "AL"value="AL">Alabama</option>
+                        <option data-tax = 0.00 id = "AK"value="AK">Alaska</option>
+                        <option data-tax = 0.056 id = "AZ" value="AZ">Arizona</option>
+                        <option data-tax = 0.065 id = "AR" value="AR">Arkansas</option>
+                        <option data-tax = 0.0725 id = "CA" value="CA">California</option>
+                        <option data-tax = 0.029 id = "CO" value="CO">Colorado</option>
+                        <option data-tax = 0.0635 id = "CT" value="CT">Connecticut</option>
+                        <option data-tax = 0.00 id = "DE" value="DE">Delaware</option>
+                        <option data-tax = 0.06 id = "DC" value="DC">District Of Columbia</option>
+                        <option data-tax = 0.06 id = "FL" value="FL">Florida</option>
+                        <option data-tax = 0.04 id = "GA" value="GA">Georgia</option>
+                        <option data-tax = 0.04 id = "HI" value="HI">Hawaii</option>
+                        <option data-tax = 0.06 id = "ID" value="ID">Idaho</option>
+                        <option data-tax = 0.0625 id = "IL" value="IL">Illinois</option>
+                        <option data-tax = 0.07 id = "IN" value="IN">Indiana</option>
+                        <option data-tax = 0.06 id = "IA" value="IA">Iowa</option>
+                        <option data-tax = 0.065 id = "KS" value="KS">Kansas</option>
+                        <option data-tax = 0.06 id = "KY" value="KY">Kentucky</option>
+                        <option data-tax = 0.0445 id = "LA" value="LA">Louisiana</option>
+                        <option data-tax = 0.055 id = "ME" value="ME">Maine</option>
+                        <option data-tax = 0.06 id = "MD" value="MD">Maryland</option>
+                        <option data-tax = 0.0625 id = "MA" value="MA">Massachusetts</option>
+                        <option data-tax = 0.06 id = "MI" value="MI">Michigan</option>
+                        <option data-tax = 0.06875 id = "MN" value="MN">Minnesota</option>
+                        <option data-tax = 0.07 id = "MS" value="MS">Mississippi</option>
+                        <option data-tax = 0.04225 id = "MO" value="MO">Missouri</option>
+                        <option data-tax = 0.00 id = "MT" value="MT">Montana</option>
+                        <option data-tax = 0.055 id = "NE" value="NE">Nebraska</option>
+                        <option data-tax = 0.0685 id = "NV" value="NV">Nevada</option>
+                        <option data-tax = 0.00 id = "NH" value="NH">New Hampshire</option>
+                        <option data-tax = 0.06625 id = "NJ" value="NJ">New Jersey</option>
+                        <option data-tax = 0.05125 id = "NM" value="NM">New Mexico</option>
+                        <option data-tax = 0.04 id = "NY" value="NY">New York</option>
+                        <option data-tax = 0.0475 id = "NC" value="NC">North Carolina</option>
+                        <option data-tax = 0.05 id = "ND" value="ND">North Dakota</option>
+                        <option data-tax = 0.0575 id = "OH" value="OH">Ohio</option>
+                        <option data-tax = 0.045 id = "OK" value="OK">Oklahoma</option>
+                        <option data-tax = 0.00 id = "OR" value="OR">Oregon</option>
+                        <option data-tax = 0.06 id = "PA" value="PA">Pennsylvania</option>
+                        <option data-tax = 0.07 id = "RI" value="RI">Rhode Island</option>
+                        <option data-tax = 0.06 id = "SC" value="SC">South Carolina</option>
+                        <option data-tax = 0.045 id = "SD" value="SD">South Dakota</option>
+                        <option data-tax = 0.07 id = "TN" value="TN">Tennessee</option>
+                        <option data-tax = 0.0625 id = "TX" value="TX">Texas</option>
+                        <option data-tax = 0.0485 id = "UT" value="UT">Utah</option>
+                        <option data-tax = 0.06 id = "VT" value="VT">Vermont</option>
+                        <option data-tax = 0.043 id = "VA" value="VA">Virginia</option>
+                        <option data-tax = 0.065 id = "WA" value="WA">Washington</option>
+                        <option data-tax = 0.06 id = "WV" value="WV">West Virginia</option>
+                        <option data-tax = 0.05 id = "WI" value="WI">Wisconsin</option>
+                        <option data-tax = 0.04 id = "WY" value="WY">Wyoming</option>
+                    </select>
+                </div>
+                <br>
+                <div id="formEmail">
+                    <h2>Email:</h2>
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div id="phoneNumber">
+                    <h2>Phone Number:</h2>
+                    <label for="phone-number"></label>
+                    <input id="phone-number" name="phone-number" type="text" pattern="^[0-9]{10}$" required>
+                </div>
+                <br>
+                <div id="shipSpeed">
+                    <h2>Shipping Speed</h2>
+                    <label for="shipping">Please select your shipping speed</label>
+                    <br>
+                    <input type="radio" id="shipping" name="shippingtypes" value= 3  required onchange="return updateShipPrice()"> standard
+                    shipping
+                    <input type="radio" id="shipping" name="shippingtypes" value= 7  required onchange="return updateShipPrice()"> express
+                    shipping
+                    <br>
+                </div>
+                <br>
+                <div id="product">
+                    <h1>Product</h1>
+                    <label for="item">Choose your cpu: </label>
+                    <br>
+                    <select id="item" name="item" required onchange="return updateProductPrice()">
+                        <option id ="" value="" data-price="0.00"></option>
+                        <option id = "QuickSlick21v" value="QuickSlick21v" data-price="420" data-model="3291324">QuickSlick 21v</option>
+                        <option id = "QuickSlick22v" value="QuickSlick22v" data-price="359" data-model="7938459">QuickSlick 22v</option>
+                        <option id = "QuickSlick23v" value="QuickSlick23v" data-price="200" data-model="2891374">QuickSlick 23v</option>
+                        <option id = "SwiftGale11v" value="SwiftGale11v"  data-price="370"  data-model="2389417">SwiftGale 11v</option>
+                        <option id = "SwiftGale12v" value="SwiftGale12v"  data-price="310"  data-model="5984372">SwiftGale 12v</option>
+                        <option id = "SwiftGale13v" value="SwiftGale13v"  data-price="150"  data-model="6539209">SwiftGale 13v</option>
+                    </select>
+                </div>
+                <div id="formQuantity">
+                    <h2> Quantity</h2>
+                    <p>Limit per customer: 4</p>
+                    <label for="quantity"></label>
+                    <select id="quantity" name="quantity" required onchange="return updateQuantity()">
+                        <option value=""></option>
+                        <option id = "one"   value=1>1</option>
+                        <option id = "two"   value=2>2</option>
+                        <option id = "three" value=3>3</option>
+                        <option id = "four"  value=4>4</option>
+                    </select>
+                </div>
+                <br>
+                <div class="submit">
+                    <button type="button" onclick="testFunction()">Place Order</button>
+                    <input type="submit" onclick="testFunction()">
+                </div>
             </div>
-            <div id="formQuantity">
-                <h2> Quantity</h2>
-                <p>Limit per customer: 4</p>
-                <label for="quantity"></label>
-                <select id="quantity" name="quantity" required>
-                    <option value=""></option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
+            <div class="paymentInfo">
+                <h1>Checkout</h1>
+                <h2>Order summary</h2>
+                <h2>Product Info</h2>
+                <h6 id ="model-number">Item #:</h6>
+                <h6 id ="product-cost">subtotal: $0.00</h6>
+                <h6 id ="shipping-cost">shipping: $0.00</h6>
+                <h6 id ="tax-cost">tax: $0.00</h6>
+                <h6 id ="total-cost">total cost: $0.00</h6>
             </div>
-            <br>
-            <div class="submit">
-                <input type="submit" value="Submit">
-            </div>
-        </div>
-        <div class="paymentInfo">
-            <h1>Checkout</h1>
-            <h2>Order summary</h2>
-            <h2>Product Info</h2>
-            <h6>Item #:</h6>
-            <h6>Cost: $0.00</h6>
-            <h6>subtotal: $0.00</h6>
-            <h6>shipping: $0.00</h6>
-            <h6>tax: $0.00</h6>
-            <h6>total cost: $0.00</h6>
-        </div>
-    </form>
-    
-</body>
-
+            <script type="text/javascript" src="transactioninfo.js"></script>
+        </form>
+    </body>
 </html>
