@@ -1,0 +1,164 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color: #273033;
+}
+/*format for input titles or titles itself*/
+h1, h2, h6{
+    color: white;
+    margin: 0px;
+}
+
+/*format for paragraphs*/
+p{
+    margin: 0px;
+    line-height: 1.3;
+    font-size: 25px;
+    font-family: "Klavika Medium Condensed",Arial,sans-serif;
+    color: white;
+}
+/*used to move and position the whole form*/
+.formFormat{
+    margin: 0px;
+    margin-right: 100px;
+    padding-top: 20px;
+    float: left;
+    line-height: 1.5;
+}
+
+/*adjusts the companys title/name position*/
+.mainHeader h2{
+    margin:  0px;
+    padding-left: 15px;
+    line-height: 2.5;
+    background-color: #273033;
+    border-bottom: 2px solid white;
+    text-align: left;
+    font-size: 40px;
+    font-style: italic;
+    font-family: "Klavika Medium Condensed",Arial,sans-serif;
+}
+
+/*adjusts the company logo to fit on level to the company title*/
+.mainHeader img{
+    float:right;
+    width: 100;
+    height: 100px;
+}
+
+/*position  the shipping information title*/
+#shipping{
+    padding: 10px 0px 0px 350px;
+    margin: 0px;
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/*position the first name title and the input*/
+#firstName{
+    padding: 10px 0px 0px 350px;
+    display: inline-block;
+}
+
+/*position the last name title and the input*/
+#lastName{
+    padding: 10px 0px 0px 25px;
+    display: inline-block;
+    
+}
+
+/*position the shipping address title and the input*/
+#shippingAddress{
+    padding: 10px 0px 0px 350px;
+    display: inline-block;
+}
+
+/*position the zip code title and the input*/
+#zipCode{
+    padding: 10px 0px 0px 350px;
+    display: inline-block;
+}
+
+/*position the city title and the input*/
+#formCity{
+    padding: 10px 0px 0px 350px;
+    display: inline-block;
+}
+
+/*position the state title and the input*/
+#formState{
+    padding: 10px 0px 0px 25px;
+    display: inline-block;
+}
+
+/*position the email title and the input*/
+#formEmail{
+    padding: 10px 0px 0px 350px;
+    display: inline-block;
+}
+
+/*position the phone number title and the input*/
+#phoneNumber{
+    padding: 10px 0px 0px 25px;
+    display: inline-block;
+}
+
+/*position  the shipping speed title and the input*/
+#shipSpeed{
+    padding: 10px 0px 0px 350px;
+    display: inline-block;
+    color: white;
+}
+
+/*adjusts the shipping speed title font and size*/
+#shipSpeed h6{
+    font-size: 15px;
+    font-family: Arial, sans-serif
+}
+
+/*position the product title and input and label*/
+#product{
+    padding: 10px 0px 0px 350px;
+    line-height: 1.35;
+    color: white;
+    display: inline-block;
+}
+
+/*formats the label which is underneath the product title*/
+#product label{
+    font-size: 15px;
+    font-family: Arial, sans-serif
+}
+
+/*position the quantity title and the label and input*/
+#formQuantity{
+    padding: 10px 0px 0px 25px;
+    display: inline-block;
+    line-height: 1.35;
+    color: white;
+
+} 
+/*adjusts the label size and font*/
+#formQuantity label{
+    font-size: 15px;
+    font-family: Arial, sans-serif
+}
+/*position the submit button*/
+.submit{
+    padding: 10px 0px 0px 350px;
+    margin: 0px;
+}
+
+/*position the payment info section*/
+.paymentInfo{
+    padding: 10px 0px 0px 0px;
+    line-height: 2.5;
+}
+
+/*adjust the smallest header in section font size*/
+.paymentInfo h6{
+    font-size: 15px;
+}
+
