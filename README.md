@@ -1,12 +1,10 @@
-# Cat-Bot
+# Chipza-Website
 
 # Table of Contents:
  - [Description](#Description)
  - [Version 2.0 Changes](#Version-2.0-Changes)
  - [License](#Liscense)
  
-
-  
 # Description
 A website that advertises cpu products for consumers
 
@@ -16,4 +14,5 @@ With the latest version, there are add ons to the website
 * A new section in the product page
 
 # License
+Released under the Mit License
 
